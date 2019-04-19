@@ -1,0 +1,87 @@
+.Card {
+    transition: 0.2s all ease-out;
+    height: 10rem;
+    width: 10rem;
+    /* margin: 0.1rem; */
+    padding: 0.1rem;
+    margin: 0
+}
+
+.Card .Img {
+    width: 100%;
+    height: 100%;
+}
+
+.Card .Details {
+    text-align: left;
+    margin-top: 0rem;
+    transform: scale(0);
+    display: none;
+
+}
+
+.Card:hover {
+    transform: scale(1.2);
+    height: 14rem;
+    /* height: 340px; */
+    z-index: 100;
+    cursor: pointer;
+}
+
+.Card:hover .Details {
+    transform: scale(1);
+    display: block;
+    /* margin-bottom: 1rem; */
+    font-size: 0.6rem;
+
+    text-align: left;
+    margin: 0;
+    padding: 0
+}
+
+.Card .BasicInfo {
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: flex-start;
+    justify-items: left;
+    justify-content: left; */
+    text-align: left;
+    line-height: 0;
+    display: block;
+    font-size: 0.8rem;
+
+}
+
+.Card:hover .BasicInfo {
+    display: none;
+}
+
+
+.Details p {
+    margin: 0.2rem;
+    padding: 0;
+}
+
+.Owner {
+    color: green;
+    font-size: 1rem;
+}
+
+.OriginalPrice {
+    text-decoration: line-through
+}
+
+.BgDark {
+    background: #333;
+}
+
+.BgDark a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #fff;
+
+}
+
+.BgDark i {
+    text-align: right;
+}

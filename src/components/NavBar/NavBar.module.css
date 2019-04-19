@@ -1,0 +1,15 @@
+.NavBar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.Title {
+    font-size: 2rem;
+    color: crimson;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-style: italic;
+    font-weight: bold
+}
